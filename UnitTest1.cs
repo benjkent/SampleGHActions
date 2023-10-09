@@ -12,7 +12,7 @@ public class Tests: PageTest
     }
 
     [Test]
-    public async Task Test1()
+    public async Task HasCorrectMainH1Title()
     {
         var getStarted = Page.GetByText("todos");
         await Expect(getStarted).ToBeVisibleAsync();
