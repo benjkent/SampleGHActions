@@ -16,6 +16,5 @@ public class Tests: PageTest
     {
         var getStarted = Page.GetByText("todos");
         await Expect(getStarted).ToBeVisibleAsync();
-        //Assert.Pass();
     }
 }
